@@ -23,7 +23,7 @@ Then:
 2. Build the binary:
   ```shell
   CGO_ENABLED=1 go run ./cmd/xk6/main.go build master \
-    --with github.com/hackfeed/xk6-tarantool
+    --with github.com/ochaton/xk6-tarantool
   ```
 
 ## Example
@@ -65,12 +65,12 @@ export const teardown = () => {
 Result output:
 
 ```
-$ ./k6 run test.js 
+$ ./k6 run test.js
 
-          /\      |‾‾| /‾‾/   /‾‾/   
-     /\  /  \     |  |/  /   /  /    
-    /  \/    \    |     (   /   ‾‾\  
-   /          \   |  |\  \ |  (‾)  | 
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
   / __________ \  |__| \__\ \_____/ .io
 
   execution: local
